@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunSpot</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1 class="title non-clickable">SunSpot</h1>
+    <h3>Hello! Today is</h3>
+    <h4 id="date"></h4>
+    <form id="location-input">
+      <input type="search" name="location-search" id="location-search" placeholder="enter a city or postal code">
+      <button id="location-submit">Search</button>
+    </form>
+    <div id="weather-information" class="non-clickable">
+      <h1 id="city-name"></h1>
+      <img id="weather-icon" alt="">
+      <div id="weather-info">
+        <span id="weather-degrees"></span>
+        <span id="weather-name"></span>
+        <p id="weather-minmax"></p>
+        <p id="wind-speed"></p>
+      </div>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

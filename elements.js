@@ -1,0 +1,11 @@
+export const locationSubmit = window.document.getElementById("location-input");
+export const locationSearch = window.document.getElementById("location-search");
+export const weatherIcon = window.document.getElementById("weather-icon");
+export const cityName = window.document.getElementById("city-name");
+export const weatherDegrees = window.document.getElementById("weather-degrees");
+export const weatherName = window.document.getElementById("weather-name");
+export const minMax = window.document.getElementById("weather-minmax");
+export const windSpeed = window.document.getElementById("wind-speed");
+export const title = window.document.querySelector(".title");
+export const footer = window.document.getElementById("footer");
+export const date = window.document.getElementById("date");
